@@ -1,5 +1,6 @@
-#include <iostream>
 #include <windows.h>
+
+#include <iostream>
 
 using namespace std;
 
@@ -16,5 +17,4 @@ int main() {
     } else {
         wcout << word[word.size() - 1];
     }
-
 }
